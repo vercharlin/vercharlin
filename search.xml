@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>文章模板,也是唯一的一级标题</title>
+      <link href="/hexo/2020/06/23/posts-model/"/>
+      <url>/hexo/2020/06/23/posts-model/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>Hexo 摘要 ————more以上的部分会被当成摘要放在文章卡片里显示<br>并不需要在Front-matter(文章头部)中设置<code>excerpt:</code>,<br>用<code>&lt;!-- more --&gt;</code>拦断即可实现,预览卡片和正文中均出现</p><a id="more"></a><p>###这里是正文<br>###文章设置<br>##icon可以设置页面标题前的图标<br>##type设置页面类型<br>##url如果为非文章类型,要写链接<br>##文章作者<br>##加载邮箱头像<br>##关闭隐藏文章<br>##sitemap:false–可以排除站点地图上显示<br>##indexing:false–可以排除在本地搜索中显示<br>##关闭打赏<br>##为页面设置打开katex数学公式</p><p>##在头部添加<code>hide</code>属性,可以隐藏文章</br><br>##hide:index–隐藏于首页，但是在归档中任然可以查看</br><br>##hide:ture–不会被显示在文章卡片与归档中</br></p><p>只要遵循markdown语法,就可以在文章中自动生成目录<br>具有良好 SEO 的 HTML 页面，有且应当只有一个 h1 作为一级标题。<br>本主题默认采用您设置的 title 作为一级标题。<br>在接下来的文章内容中，文章中应当只从二级标题开始使用。</p><p>toc:<br>  list_number:true 显示编号<br>  max_depth: 6 生成 TOC 的最大深度<br>  min_depth: 1 生成 TOC 的最小深度<br>  placeholder:  当目录不存在时，在这里写目录?。</p><p>###关于图片的注释<br>  <code>![图片名称](图片地址)图片注释</code><br>###插入一张图片查看效果<br>  <img src="https://gitee.com/vercharlin/imgbed/raw/master/ym27xg.jpg" alt="ym27xg.jpg" loading="lazy">这是一颗很漂亮的树</p><p>###插入某首网易云音乐的歌曲</p>    <div id="aplayer-lMaaIqSe" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="497572729" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>###插入一段我喜欢的网易云音乐的歌曲</p>    <div id="aplayer-iMaymKej" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="28565309" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在gitee部署hexo博客时遇到的问题</title>
+      <link href="/hexo/2020/06/22/bushuwenti/"/>
+      <url>/hexo/2020/06/22/bushuwenti/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="在gitee部署hexo博客时遇到的问题"><a href="#在gitee部署hexo博客时遇到的问题" class="headerlink" title="在gitee部署hexo博客时遇到的问题"></a>在gitee部署hexo博客时遇到的问题</h1><ol><li><h3 id="缓存问题导致的无法正常显示博客"><a href="#缓存问题导致的无法正常显示博客" class="headerlink" title="缓存问题导致的无法正常显示博客"></a>缓存问题导致的无法正常显示博客</h3></li></ol><p>​    方法:hexo文件夹下使用命令$hexo clean &amp;&amp; $hexo generate &amp;&amp; $hexo deploy</p><p>作用:清理缓存,重新生成,一键部署</p><p>接着可以使用$hexo server命令 打开<a href="https://localhost:4000,浏览效果,并按下ctrl+F5强制刷新,清理浏览器缓存">https://localhost:4000,浏览效果,并按下ctrl+F5强制刷新,清理浏览器缓存</a></p><ol start="2"><li><h3 id="部署后界面未生效的问题"><a href="#部署后界面未生效的问题" class="headerlink" title="部署后界面未生效的问题"></a>部署后界面未生效的问题</h3></li></ol><p>​    部署后注意观看是否在gitee中接收到推送,如果接收到推送并做了缓存清理工作,考虑服务器的部署问题.应该尝试打开该仓库的设置,重启pages服务</p><p>优化主题时，修改Hexo根目录下的_config.yml站点配置目录后，要重新启动Hexo再刷新，修改next主题目录下的_config.yml主题配置目录则只需刷新即可.</p><p style="text-align:center;"><font size="1em" >😑持续跟新</font></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/hexo/2020/06/21/hello-world/"/>
+      <url>/hexo/2020/06/21/hello-world/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>推荐一款提升效率的工具utools</title>
+      <link href="/hexo/2020/06/21/tui-jian-yi-kuan-ti-sheng-xiao-lu-de-gong-ju-utools/"/>
+      <url>/hexo/2020/06/21/tui-jian-yi-kuan-ti-sheng-xiao-lu-de-gong-ju-utools/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p><img src="https://vercharlin.github.io/post-images/1592714788152.png" alt="uTools" loading="lazy"><br>🤞一款让我欲罢不能的软件<br>💪拒绝繁琐！效率至上！</p><a id="more"></a><ul><li>安装成功，双击图标，出现输入框，点击输入框最右侧图标或者在输入框内输入插件中心，进入插件中心<img src="https://vercharlin.github.io/post-images/1592716548714.jpg" alt="" loading="lazy"></li><li>点击设置<img src="https://vercharlin.github.io/post-images/1592716832641.jpg" alt="" loading="lazy"></br>根据自己的习惯设置一个$\color{orange}显示/隐藏快捷键$<br>&lt;没写完,待跟新&gt;<!-- more --></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我部署于gitee上的第一篇blog</title>
+      <link href="/hexo/2020/06/20/first-blog/"/>
+      <url>/hexo/2020/06/20/first-blog/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>选择markdown保存，保存下来是一个zip压缩包。内部是md文件，</p><p>将写好的.md文件放入hexo文件夹下的source 目录下的 _posts 文件夹中，可以看到里面有个hello-world.md 文件，这是默认的文章。</p><p><u>现在  在git bash中关掉服务，再hexo server就可以看到刚才的文章了</u></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>试图尝试从外网访问到我的计算机</title>
+      <link href="/hexo/2020/06/20/shi-tu-chang-shi-cong-wai-wang-fang-wen-dao-wo-de-ji-suan-ji/"/>
+      <url>/hexo/2020/06/20/shi-tu-chang-shi-cong-wai-wang-fang-wen-dao-wo-de-ji-suan-ji/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>1️⃣. 首先需要区分内网与外网的区别<br>     🅰️. 内网：内网也称为局域网，内网的计算机以NAT（网络地址转换）协议，通过一个公共的网关访问Internet。内网的计算机可以向Internet上的其他计算机发送连接请求（http、https协议），但Internet上其他计算机无法向我所在内网的计算机发送连接请求。<br>     🅱️. 外网：广域网，又称公网。是连接不同地区局域网或城域网计算机通信的远程网，通常跨接很大的物理范围，所覆盖的范围从几十公里到几千公里。他能连接多个地区、城市和国家，活横跨几个周并能提供远距离通信，形成国际性的远程网络，广域网不等同于互联网<br>2️⃣.  明确端口映射与内网穿透<br>     🅰️.  端口映射：又称端口转发，就是将一台主机的网络端口转到另外一台主机并由另一台主机提供转发的网络服务。<br>     🅱️.  内网穿透，也即NAT穿透，进行NAT穿透是为了使某具有某一个特定源IP地址和源端口号的数据包不被NAT设备屏蔽而正确路由到内网主机。<br>3️⃣.内网与外网IP<br>     🅰️.IP相当于家里的地址门牌号，相当于小区里定义家里在几栋几单元几号房，内网IP是由路由器分配的，进行局域网内部使用的<br>     🅱️.外网ip是全世界唯一的IP地址，分配给每一个网络设备，由运营商提供分配<br>     在局域网中，每台电脑都可以自己分配自己的IP，这个IP只在局域网中有效。而如果你将电脑连接到互联网，你的网络提供商（ISP）的服务器会为你分配一个IP地址，这个IP地址才是你在外网的IP。两个IP同时存在，一个对内，一个对外。</p><hr><p>question：既然内网会通过路由屏蔽外网设备寻找到内网主机，那么怎么才能让我在广域网时通过某个域名访问到我内网的机器呢？（怎么实现内网穿透）</p><hr><p>$\color{orange}<br>内网穿透是利用另外一个服务器的公网IP和端口，在本地开启一个服务器，同时服务也和那台服务器进行TCP连接,通过这个TCP连接，可以将本地端口与公网服务器IP和端口形成映射，别人只要直接访问公网的服务器的IP和端口，就能直接穿透到你本地的端口<br>$<br> <img src="https://vercharlin.github.io/post-images/1592702535239.jpg" alt="ngrok内网穿透原理" loading="lazy"><br> 可以利用ngrok服务，搭建我的穿透服务器，同时需要一台外网服务器，没有外网服务器则可以用第三方搭建的穿透服务<br> 这里可以考虑买个低配云服务器，将ngrokd部署到云端，因为每个云服务器都有公网IP，则该服务器就可以作为我的公网服务器使用,</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> study </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>相册</title>
+      <link href="/hexo/2020/06/20/xiang-ce/"/>
+      <url>/hexo/2020/06/20/xiang-ce/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="🌈记录生活"><a href="#🌈记录生活" class="headerlink" title="🌈记录生活"></a>🌈记录生活</h1><a id="more"></a><h2 id="2020-6-19"><a href="#2020-6-19" class="headerlink" title="2020.6.19"></a>2020.6.19</h2><h3 id="emsp-emsp-于柳州同室友夜骑绿单车🚲-于路口红绿灯处爆胎😤-随手拍下此处城市街景光景-甚是喜欢😌"><a href="#emsp-emsp-于柳州同室友夜骑绿单车🚲-于路口红绿灯处爆胎😤-随手拍下此处城市街景光景-甚是喜欢😌" class="headerlink" title="&emsp;&emsp;于柳州同室友夜骑绿单车🚲,于路口红绿灯处爆胎😤,随手拍下此处城市街景光景,甚是喜欢😌"></a>&emsp;&emsp;于柳州同室友夜骑绿单车🚲,于路口红绿灯处爆胎😤,随手拍下此处城市街景光景,甚是喜欢😌</h3><p><img src="https://vercharlin.github.io/post-images/1592628265598.JPG" alt="" loading="lazy"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> life </tag>
+            
+            <tag> photos </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>浏览器的工作原理</title>
+      <link href="/hexo/2020/06/20/liu-lan-qi-de-gong-zuo-yuan-li/"/>
+      <url>/hexo/2020/06/20/liu-lan-qi-de-gong-zuo-yuan-li/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>💡make一下,浏览器的访问通讯原理,以及加载流程,附图例说明,<br>😊有不对或者有遗漏的地方欢迎大佬们补充探讨</p><a id="more"></a><p><img src="https://vercharlin.github.io/post-images/1592625989708.png" alt="" loading="lazy"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> study </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/hexo/2020/06/19/about/"/>
+      <url>/hexo/2020/06/19/about/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>欢迎来到我的小站呀，很高兴遇见你！🤝</p></blockquote><h2 id="🏠-关于本站"><a href="#🏠-关于本站" class="headerlink" title="🏠 关于本站"></a>🏠 关于本站</h2><pre><code>记录一些不为人知的喜悦</code></pre><h2 id="👨‍💻-博主是谁"><a href="#👨‍💻-博主是谁" class="headerlink" title="👨‍💻 博主是谁"></a>👨‍💻 博主是谁</h2><pre><code>是淋先生啊</code></pre><h2 id="⛹-兴趣爱好"><a href="#⛹-兴趣爱好" class="headerlink" title="⛹ 兴趣爱好"></a>⛹ 兴趣爱好</h2><pre><code>抽烟、喝酒、赌博、嫖娼以外的活动,请务必让我参加!</code></pre><h2 id="📬-联系我呀"><a href="#📬-联系我呀" class="headerlink" title="📬 联系我呀"></a>📬 联系我呀</h2><pre><code>perfect.xiang@qq.com</code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>欢迎来到思大淋掀森的个人博客</title>
+      <link href="/hexo/2020/06/19/huan-ying-lai-dao-si-da-lin-xian-sen-de-ge-ren-bo-ke/"/>
+      <url>/hexo/2020/06/19/huan-ying-lai-dao-si-da-lin-xian-sen-de-ge-ren-bo-ke/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>👏  欢迎来到 <strong>思大淋掀森的个人博客</strong> ！</p><p>✍️  <strong>Here</strong>是一个静态博客。它来记录我的生活、心情、知识、笔记、创意… … </p><a id="more"></a><p>🌱 当然 <strong>思大淋掀森</strong> 还很年轻，有很多不足，但请相信，他会不停向前 🏃</p><p>😘 Enjoy~</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> life </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>创建我的第一篇博客</title>
+      <link href="/hexo/2020/06/19/chuang-jian-wo-de-di-yi-pian-bo-ke/"/>
+      <url>/hexo/2020/06/19/chuang-jian-wo-de-di-yi-pian-bo-ke/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><ol><li>安装Gridea</li><li>写作</li><li>发布并部署到GitHub<ol><li>创建GitHub账号，并创建一个Token<a href='https://github.com/settings/tokens/new' target="_blank" rel="noopener">创建Token</a>,勾选repo权限</li><li>创建仓库,并把我写好的blog放在仓库内,仓库名称为用户民.github.io</li><li>进入Gridea进行远程设置<img src="https://vercharlin.github.io/post-images/1592505731856.png" alt="" loading="lazy"></li><li>点击同步,初次部署等待几分钟就可以去浏览器访问了,默认地址为我在上一步远程设置中填写的域名,此处我的域名为 <a href="https://vercharlin.github.io" target="_blank" rel="noopener">https://vercharlin.github.io</a><br>以上!<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script><div id="gitalk-container"></div> --></li></ol></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> study </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
