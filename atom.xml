@@ -6,7 +6,7 @@
   <link href="/vercharlin/atom.xml" rel="self"/>
   
   <link href="http://vercharlin.gitee.io/"/>
-  <updated>2020-06-27T19:56:32.235Z</updated>
+  <updated>2020-06-29T08:38:22.669Z</updated>
   <id>http://vercharlin.gitee.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://vercharlin.gitee.io/2020/06/23/posts-model/"/>
     <id>http://vercharlin.gitee.io/2020/06/23/posts-model/</id>
     <published>2020-06-22T16:17:03.388Z</published>
-    <updated>2020-06-27T19:56:32.235Z</updated>
+    <updated>2020-06-29T08:38:22.669Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>Hexo 摘要 ————more以上的部分会被当成摘要放在文章卡片里显示<br>并不需要在Front-matter(文章头部)中设置<code>excerpt:</code>,<br>用<code>&lt;!-- more --&gt;</code>拦断即可实现,预览卡片和正文中均出现</p><a id="more"></a><p>###这里是正文<br>###文章设置<br>##icon可以设置页面标题前的图标<br>##type设置页面类型<br>##url如果为非文章类型,要写链接<br>##文章作者<br>##加载邮箱头像<br>##关闭隐藏文章<br>##sitemap:false–可以排除站点地图上显示<br>##indexing:false–可以排除在本地搜索中显示<br>##关闭打赏<br>##为页面设置打开katex数学公式<br>##设置了加密</p><p>##在头部添加<code>hide</code>属性,可以隐藏文章</br><br>##hide:index–隐藏于首页，但是在归档中任然可以查看</br><br>##hide:ture–不会被显示在文章卡片与归档中</br></p><p>只要遵循markdown语法,就可以在文章中自动生成目录<br>具有良好 SEO 的 HTML 页面，有且应当只有一个 h1 作为一级标题。<br>本主题默认采用您设置的 title 作为一级标题。<br>在接下来的文章内容中，文章中应当只从二级标题开始使用。</p><p>toc:<br>  list_number:true 显示编号<br>  max_depth: 6 生成 TOC 的最大深度<br>  min_depth: 1 生成 TOC 的最小深度<br>  placeholder:  当目录不存在时，在这里写目录?。</p><p>###关于图片的注释<br>  <code>![图片名称](图片地址)图片注释</code><br>###插入一张图片查看效果<br>  <img src="https://gitee.com/vercharlin/imgbed/raw/master/ym27xg.jpg" alt="ym27xg.jpg" loading="lazy">这是一颗很漂亮的树</p><p>###插入某首网易云音乐的歌曲</p>    <div id="aplayer-tZRAkRkL" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="497572729" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>###插入一段我喜欢的网易云音乐的歌曲 –失败</p>    <div id="aplayer-hYLAWqMl" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1449678888" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>###插入一段我喜欢的网易云音乐，这里的url必须为.MP3文件啊！！我调试了老半天！可恶！!</p>        <div id="aplayer-yTSCCHAC" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-yTSCCHAC"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "Cloud9",              author: "淋",              url: "http://m2.music.126.net/OjgrxW7zsP6QzPE9baQULA==/1415071473003094.mp3",              pic: "http://y.gtimg.cn/music/photo_new/T002R300x300M000002ehzTm0TxXC2.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>###插入一个歌曲列表</p>    <div id="aplayer-ufVKZmnN" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="3158417434" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div><p><img src="https://gitee.com/vercharlin/imgbed/raw/master//20200628-032514-0555.png" alt="有关meting资源管理的选项设置" loading="lazy">关于如何设置自建的 Meting API 服务器地址，以及其他 MetingJS 配置，请参考章节<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE30-%E6%96%B0%E5%8A%9F%E8%83%BD" target="_blank" rel="noopener">自定义配置</a><br>###插入一两段公式<br>$$ E = mc^2 $$<br>[ E = mc^2 ]</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>Hexo 摘要 ————more以上的部分会被当成摘要放在文章卡片里显示<br>并不需要在Front-matter(文章头部)中设置<code>excerpt:</code>,<br>用<code>&lt;!-- more --&gt;</code>拦断即可实现,预览卡片和正文中均出现</p><a id="more"></a><p>###这里是正文<br>###文章设置<br>##icon可以设置页面标题前的图标<br>##type设置页面类型<br>##url如果为非文章类型,要写链接<br>##文章作者<br>##加载邮箱头像<br>##关闭隐藏文章<br>##sitemap:false–可以排除站点地图上显示<br>##indexing:false–可以排除在本地搜索中显示<br>##关闭打赏<br>##为页面设置打开katex数学公式<br>##分类<br>##封面<br>##设置了加密</p><p>##在头部添加<code>hide</code>属性,可以隐藏文章</br><br>##hide:index–隐藏于首页，但是在归档中任然可以查看</br><br>##hide:ture–不会被显示在文章卡片与归档中</br></p><p>只要遵循markdown语法,就可以在文章中自动生成目录<br>具有良好 SEO 的 HTML 页面，有且应当只有一个 h1 作为一级标题。<br>本主题默认采用您设置的 title 作为一级标题。<br>在接下来的文章内容中，文章中应当只从二级标题开始使用。</p><p>toc:<br>  list_number:true 显示编号<br>  max_depth: 6 生成 TOC 的最大深度<br>  min_depth: 1 生成 TOC 的最小深度<br>  placeholder:  当目录不存在时，在这里写目录?。</p><p>###关于图片的注释<br>  <code>![图片名称](图片地址)图片注释</code><br>###插入一张图片查看效果<br>  <img src="https://gitee.com/vercharlin/imgbed/raw/master/ym27xg.jpg" alt="ym27xg.jpg" loading="lazy">这是一颗很漂亮的树</p><p>###插入某首网易云音乐的歌曲</p>    <div id="aplayer-IiCEYkjb" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="497572729" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>###插入一段我喜欢的网易云音乐的歌曲 –失败</p>    <div id="aplayer-JpZrFIFU" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1449678888" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>###插入一段我喜欢的网易云音乐，这里的url必须为.MP3文件啊！！我调试了老半天！可恶！!</p>        <div id="aplayer-VKneYzbM" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-VKneYzbM"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "Cloud9",              author: "淋",              url: "http://m2.music.126.net/OjgrxW7zsP6QzPE9baQULA==/1415071473003094.mp3",              pic: "http://y.gtimg.cn/music/photo_new/T002R300x300M000002ehzTm0TxXC2.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>###插入一个歌曲列表</p>    <div id="aplayer-uilKTues" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="3158417434" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div><p><img src="https://gitee.com/vercharlin/imgbed/raw/master//20200628-032514-0555.png" alt="有关meting资源管理的选项设置" loading="lazy">关于如何设置自建的 Meting API 服务器地址，以及其他 MetingJS 配置，请参考章节<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE30-%E6%96%B0%E5%8A%9F%E8%83%BD" target="_blank" rel="noopener">自定义配置</a><br>###插入一两段公式<br>$$ E = mc^2 $$<br>[ E = mc^2 ]</p>]]></content>
     
     <summary type="html">
     
@@ -31,6 +31,8 @@
     
     </summary>
     
+    
+      <category term="作业" scheme="http://vercharlin.gitee.io/categories/%E4%BD%9C%E4%B8%9A/"/>
     
     
       <category term="study" scheme="http://vercharlin.gitee.io/tags/study/"/>
@@ -92,7 +94,7 @@
     <link href="http://vercharlin.gitee.io/2020/06/21/tui-jian-yi-kuan-ti-sheng-xiao-lu-de-gong-ju-utools/"/>
     <id>http://vercharlin.gitee.io/2020/06/21/tui-jian-yi-kuan-ti-sheng-xiao-lu-de-gong-ju-utools/</id>
     <published>2020-06-21T04:39:40.000Z</published>
-    <updated>2020-06-21T06:16:48.195Z</updated>
+    <updated>2020-06-29T08:06:08.509Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p><img src="https://vercharlin.github.io/post-images/1592714788152.png" alt="uTools" loading="lazy"><br>🤞一款让我欲罢不能的软件<br>💪拒绝繁琐！效率至上！</p><a id="more"></a><ul><li>安装成功，双击图标，出现输入框，点击输入框最右侧图标或者在输入框内输入插件中心，进入插件中心<img src="https://vercharlin.github.io/post-images/1592716548714.jpg" alt="" loading="lazy"></li><li>点击设置<img src="https://vercharlin.github.io/post-images/1592716832641.jpg" alt="" loading="lazy"></br>根据自己的习惯设置一个$\color{orange}显示/隐藏快捷键$<br>&lt;没写完,待跟新&gt;<!-- more --></li></ul>]]></content>
     
@@ -103,6 +105,14 @@
     </summary>
     
     
+    
+      <category term="study" scheme="http://vercharlin.gitee.io/tags/study/"/>
+    
+      <category term="utools" scheme="http://vercharlin.gitee.io/tags/utools/"/>
+    
+      <category term="mark.效率" scheme="http://vercharlin.gitee.io/tags/mark-%E6%95%88%E7%8E%87/"/>
+    
+      <category term="工具" scheme="http://vercharlin.gitee.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -161,7 +171,7 @@
     <link href="http://vercharlin.gitee.io/2020/06/20/xiang-ce/"/>
     <id>http://vercharlin.gitee.io/2020/06/20/xiang-ce/</id>
     <published>2020-06-20T04:35:50.000Z</published>
-    <updated>2020-06-20T05:25:44.649Z</updated>
+    <updated>2020-06-29T08:09:08.084Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="🌈记录生活"><a href="#🌈记录生活" class="headerlink" title="🌈记录生活"></a>🌈记录生活</h1><a id="more"></a><h2 id="2020-6-19"><a href="#2020-6-19" class="headerlink" title="2020.6.19"></a>2020.6.19</h2><h3 id="emsp-emsp-于柳州同室友夜骑绿单车🚲-于路口红绿灯处爆胎😤-随手拍下此处城市街景光景-甚是喜欢😌"><a href="#emsp-emsp-于柳州同室友夜骑绿单车🚲-于路口红绿灯处爆胎😤-随手拍下此处城市街景光景-甚是喜欢😌" class="headerlink" title="&emsp;&emsp;于柳州同室友夜骑绿单车🚲,于路口红绿灯处爆胎😤,随手拍下此处城市街景光景,甚是喜欢😌"></a>&emsp;&emsp;于柳州同室友夜骑绿单车🚲,于路口红绿灯处爆胎😤,随手拍下此处城市街景光景,甚是喜欢😌</h3><p><img src="https://vercharlin.github.io/post-images/1592628265598.JPG" alt="" loading="lazy"></p>]]></content>
     
@@ -205,7 +215,7 @@
     <link href="http://vercharlin.gitee.io/2020/06/19/about/"/>
     <id>http://vercharlin.gitee.io/2020/06/19/about/</id>
     <published>2020-06-19T11:09:48.000Z</published>
-    <updated>2020-06-19T10:40:31.556Z</updated>
+    <updated>2020-06-29T08:07:36.125Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>欢迎来到我的小站呀，很高兴遇见你！🤝</p></blockquote><h2 id="🏠-关于本站"><a href="#🏠-关于本站" class="headerlink" title="🏠 关于本站"></a>🏠 关于本站</h2><pre><code>记录一些不为人知的喜悦</code></pre><h2 id="👨‍💻-博主是谁"><a href="#👨‍💻-博主是谁" class="headerlink" title="👨‍💻 博主是谁"></a>👨‍💻 博主是谁</h2><pre><code>是淋先生啊</code></pre><h2 id="⛹-兴趣爱好"><a href="#⛹-兴趣爱好" class="headerlink" title="⛹ 兴趣爱好"></a>⛹ 兴趣爱好</h2><pre><code>抽烟、喝酒、赌博、嫖娼以外的活动,请务必让我参加!</code></pre><h2 id="📬-联系我呀"><a href="#📬-联系我呀" class="headerlink" title="📬 联系我呀"></a>📬 联系我呀</h2><pre><code>perfect.xiang@qq.com</code></pre>]]></content>
     
